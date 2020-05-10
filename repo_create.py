@@ -124,7 +124,7 @@ path_16 = './level_3/cave_of_plot_points/cave_of_loot/armor.exe'
 
 paths_l3 = [path_1, path_2, path_3, path_4, path_5, 
             path_6a, path_6b, path_7a, path_7b , path_8, 
-            path_9, path_10a, path_10b, path_11, path_11b
+            path_9, path_10a, path_10b, path_11, path_11b,
              path_12a, path_12b, path_13, path_14, path_15, path_16]
 
 for path in paths_l3:
