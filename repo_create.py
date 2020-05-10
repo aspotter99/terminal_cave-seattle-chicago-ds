@@ -114,6 +114,7 @@ path_9 = './level_3/cave_of_tropes/mineral'
 path_10a = './level_3/cave_of_tropes/dark_matter/scary_creatures/'
 path_10b = './level_3/cave_of_tropes/dark_matter/scary_creatures/mom_when_mad.exe'
 path_11 = './level_3/cave_of_tropes/dark_matter/scary_creatures/monster.exe'
+path_11b = './level_3/cave_of_tropes/dark_matter/scary_creatures/sword_of_destruction.txt'
 path_12a = './level_3/cave_of_plot_points/cave_of_loot/cave_of_fruit/'
 path_12b = './level_3/cave_of_plot_points/cave_of_loot/cave_of_fruit/apple_of_appeasement.txt'
 path_13 = './level_3/cave_of_plot_points/cave_of_loot/cave_of_fruit/banana_of_bygone_days.txt'
@@ -121,7 +122,10 @@ path_14 = './level_3/cave_of_plot_points/cave_of_loot/Apple_Of_Appeasement.txt'
 path_15 = './level_3/cave_of_plot_points/cave_of_loot/orange_you_glad.txt'
 path_16 = './level_3/cave_of_plot_points/cave_of_loot/armor.exe'
 
-paths_l3 = [path_1, path_2, path_3, path_4, path_5, path_6a, path_6b, path_7a, path_7b , path_8, path_9, path_10a, path_10b, path_11, path_12a, path_12b, path_13, path_14, path_15, path_16]
+paths_l3 = [path_1, path_2, path_3, path_4, path_5, 
+            path_6a, path_6b, path_7a, path_7b , path_8, 
+            path_9, path_10a, path_10b, path_11, path_11b
+             path_12a, path_12b, path_13, path_14, path_15, path_16]
 
 for path in paths_l3:
     if 'txt' not in path and 'exe' not in path:
